@@ -9,7 +9,7 @@ O objetivo desse conjunto de scripts é automatizar a instalação de programas 
 1. Baixe os scripts deste repositório na máquina destino.
 2. Extraia os arquivos para o diretório do usuário.
 3. Abra um teriminal pressionando as teclas `CTRL + ALT + T`
-4. Dê permissão de execução aos scripts com o comando `chmod +x ./<diretorio-scripts>/*.sh`
+4. Dê permissão de execução aos scripts com o comando `chmod +x ./<diretorio-scripts>/*.sh ./<diretorio-scripts>/scripts/*.sh`
 5. Execute o script `./instatll.sh`
 6. Aguarde o término da instalação
 
