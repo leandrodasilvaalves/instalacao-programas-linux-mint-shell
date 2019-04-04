@@ -17,5 +17,7 @@ echo  INSTALACAO DOS PROGRAMAS ESTA SENDO INICIALIZADA
 ./scripts/7-install-angular-cli.sh
 ./scripts/8-install-dotnet-core.sh
 ./scripts/9-install-robomongo.sh
+./scripts/10-install-postman.sh
+./scripts/11-install-dbeaver.sh
 
 echo A INSTALACAO DE TODOS OS PROGRAMAS FOI REALIZADA COM SUCESSO!
