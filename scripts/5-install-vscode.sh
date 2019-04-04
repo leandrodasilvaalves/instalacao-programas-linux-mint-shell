@@ -1,11 +1,11 @@
-echo INICIANDO A INSTALACAO DO VSCODE
+#!/bin/bash
 
-wget "https://go.microsoft.com/fwlink/?LinkID=620884" -O vscode.tar.gz
-sudo tar -vzxf vscode.tar.gz -C /opt/
-sudo mv /opt/VSCode*/ /opt/vscode/
-sudo ln -sf /opt/vscode/code /usr/bin/code
-echo -e '[Desktop Entry]\n Version=1.0\n Name=vscode\n Exec=/opt/vscode/code\n Icon=/opt/vscode/resources/app/resources/linux/code.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/vscode.desktop
-rm vscode.tar.gz
+echo \nINICIANDO A INSTALACAO DO VSCODE
 
-echo FINALIZANDO A ISNTALACAO DO VSCODE
+wget -C https://az764295.vo.msecnd.net/stable/0dd516dd412d42323fc3464531b1c715d51c4c1a/code_1.33.0-1554390824_amd64.deb
+sudo dpkg -i code_1.33.0-1554390824_amd64.deb
+sudo apt-get install -f
+rm code_1.33.0-1554390824_amd64.deb
+
+echo \nFINALIZANDO A INSTALACAO DO VSCODE
 printf '=%.0s' {1..100}
