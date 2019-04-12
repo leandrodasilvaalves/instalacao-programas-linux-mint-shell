@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### NOME: Preparar Meu Ambiente De Desenvolvimento No Linux Mint
-### VERSAO: 1.0
+### VERSAO: 1.1.0
 ### DATA: 03/04/2019
 ### AUTOR: Leandro da Silva Alves
 ### DISTRO: Linux Mint 19
@@ -19,5 +19,6 @@ echo  INSTALACAO DOS PROGRAMAS ESTA SENDO INICIALIZADA
 ./scripts/9-install-robomongo.sh
 ./scripts/10-install-postman.sh
 ./scripts/11-install-dbeaver.sh
+./shortcuts/all.sh
 
 echo A INSTALACAO DE TODOS OS PROGRAMAS FOI REALIZADA COM SUCESSO!
