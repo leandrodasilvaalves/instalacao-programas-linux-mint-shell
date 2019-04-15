@@ -26,6 +26,8 @@ fi
 ./github.sh $browser
 ./gitlab.sh $browser
 ./messenger.sh $browser
+./google.sh $browser
+./spotify.sh $browser
 
 
 sudo chmod 700 /home/$USER/Área\ de\ Trabalho/*.desktop
