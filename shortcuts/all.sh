@@ -12,7 +12,7 @@ read option
 
 if [ $option -eq 1 ]
 then
-  browser='chrome'
+  browser='google-chrome'
 else
   browser='firefox'
 fi
