@@ -23,3 +23,10 @@ Abra o arquivo grub com o comando a seguir `sudo nano /etc/default/grub` e alter
 GRUB_DEFAULT=4
 GRUB_TIMEOUT=30
 ```
+Salve e feche o arquivo. 
+
+Depois, rode o comando: 
+
+```
+sudo update-grub 
+```
